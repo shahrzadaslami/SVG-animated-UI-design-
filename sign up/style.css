@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #32053d;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+main{
+    background: #e7d2f5e7;
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.226), 0 12px 15px 0 rgba(0, 0, 0, 0.089);
+    display: flex;
+    flex-direction: row;
+}
+.thesign{
+    background: #ffbe00;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.welcome{
+    color:white;
+    font-size:24px;
+    text-align:center;
+    margin-top:50px;
+    font-family: 'ABeeZee', sans-serif;
+    padding-bottom: 10px;
+}
+.moo{
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.thelogo{
+    background: #ca1f3d;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.theimage{
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.name{
+    
+    width: 200px;
+    margin: 0 35px 20px ;
+    height: 35px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgba(246, 247, 249, 0.301);
+    color: #748194;
+    font-size: 14px;
+}
+
+.nametag{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    
+    width: 200px;
+    margin: 0 35px 20px ;
+    height: 35px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgba(246, 247, 249, 0.301);
+    color: #748194;
+    font-size: 14px;
+}
+.emailtag{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.password{
+   
+    width: 200px;
+    margin: 0 35px 20px ;
+    height: 35px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgba(246, 247, 249, 0.301);
+    color: #748194;
+    font-size: 14px;
+}
+.passwordtag{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.submite{
+    margin: auto;
+}
+.btn{
+    font-weight: bold;
+   width: 230px;
+   margin: 0 35px 20px ;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #25182e;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+}

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    background: #25182e
+}
+header{
+   
+    height: 10vh;
+    display: flex;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.fancybutton{
+    margin-top: 0;
+}
+.btn1{
+  font-weight: bold;
+  width: 130px;
+  margin: 0 35px 20px ;
+  height: 45px;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ffbe00;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn2{
+  
+  width: 230px;
+  margin: 50px 35px 20px ;
+  height: 45px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ca1f3d;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.logo{
+    margin: auto;
+    margin-bottom: 60px;
+}
+  .content path:nth-child(1){
+    stroke-dasharray: 557;
+    stroke-dashoffset: 557;
+    animation: line-anim 1s ease forwards;
+  }
+  .content path:nth-child(2){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .2s;
+  }
+  .content path:nth-child(3){
+    stroke-dasharray: 684;
+    stroke-dashoffset: 684;
+    animation: line-anim 1s ease forwards .4s;
+  }
+  .content path:nth-child(4){
+    stroke-dasharray: 684;
+    stroke-dashoffset: 684;
+    animation: line-anim 1s ease forwards .6s;
+  }
+  .content path:nth-child(5){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .8s;
+  }
+  .content path:nth-child(6){
+    stroke-dasharray: 660;
+    stroke-dashoffset: 660;
+    animation: line-anim 1s ease forwards 1s;
+  }
+  .content path:nth-child(7){
+    stroke-dasharray: 557;
+    stroke-dashoffset: 557;
+    animation: line-anim 1s ease forwards;
+  }
+  .content path:nth-child(8){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .2s;
+  }
+  .content path:nth-child(9){
+    stroke-dasharray: 684;
+    stroke-dashoffset: 684;
+    animation: line-anim 1s ease forwards .4s;
+  }
+  .content path:nth-child(10){
+    stroke-dasharray: 684;
+    stroke-dashoffset: 684;
+    animation: line-anim 1s ease forwards .6s;
+  }
+  .content path:nth-child(11){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .8s;
+  }
+  .content path:nth-child(12){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .8s;
+  }
+  .content path:nth-child(13){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .8s;
+  }
+  .content path:nth-child(14){
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
+    animation: line-anim 1s ease forwards .8s;
+  }
+
+
+
+  @keyframes line-anim {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  
+
+.presentaion{
+    
+    display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 100vh;
+	align-items: center;
+}
+.nametag{
+    font-size: 50px;
+	font-weight: 500;
+    background: linear-gradient(to right, #910000, #4d3033);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.slg{
+    font-size: 44px;
+	font-weight: 500;
+    background: linear-gradient(to right, #ffbe00, #c70818);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  
+}
+.image{
+    flex: 1;
+	display: flex;
+	justify-content: center;
+    height: 60vh;
+    margin-left: 200px;
+
+}
+.new{
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+}
+.new h4{
+    margin-top: 10px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #fdbf50;
+}
+.sign{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #1e1e61;
+    background: #6861a788;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+    margin: 30px 0px 0px 30px;
+    border-radius: 20%; 
+}
+.text-intro h5{
+    margin-top: 10px;
+    margin-left: 500px;
+    background: linear-gradient(to right, #47475e, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#thecircles{
+    animation: circle 5s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes circle{
+    from{
+        transform: rotateZ(0deg);
+    } 
+    to{
+        transform: rotateZ(360deg);
+    }
+}
